@@ -1,0 +1,39 @@
+.colorPalette {
+  margin: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.options {
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border: 1.5px solid #000;
+  border-radius: 50%;
+  cursor: pointer;  
+}
+
+.options__light {
+  background-color: #fff;
+}
+
+.options__grey {
+  background-color: #636363;
+}
+
+.options__green {
+  background-color: #004509;
+}
+
+.options__blue {
+  background-color: #003599;
+}
+
+.options__dark {
+  background-color: #3f4650;
+}
